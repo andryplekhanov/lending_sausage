@@ -1,5 +1,5 @@
 $(function(){
-  $('.nav-link').click(function(){
+  $('.smooth-scroll').click(function(){
     var id = $(this).attr('href');
     
     $('html, body').animate({

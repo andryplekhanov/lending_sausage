@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html>
-  
 <head>
   <meta charset='UTF-8'>
   <title>Сетки</title>
-  
   <link href="styles/style.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
   <link href="styles/fotorama.css" rel="stylesheet" type="text/css">
@@ -20,11 +18,11 @@
 
       <div class="nav">
         <ul class="navigator">
-          <li><a class="nav-link" href="#begin">В НАЧАЛО</a></li>
-          <li><a class="nav-link" href="#about-us">О НАС</a></li>
-          <li><a class="nav-link" href="#advantages">НАШИ ПРЕИМУЩЕСТВА</a></li>
-          <li><a class="nav-link" href="#fb">ОТЗЫВЫ</a></li>
-          <li><a class="nav-link" href="#buy">КУПИТЬ</a></li>
+          <li><a class="nav-link smooth-scroll" href="#begin">В НАЧАЛО</a></li>
+          <li><a class="nav-link smooth-scroll" href="#about-us">О НАС</a></li>
+          <li><a class="nav-link smooth-scroll" href="#advantages">НАШИ ПРЕИМУЩЕСТВА</a></li>
+          <li><a class="nav-link smooth-scroll" href="#fb">ОТЗЫВЫ</a></li>
+          <li><a class="nav-link smooth-scroll" href="#buy">КУПИТЬ</a></li>
         </ul>
       </div>
     </div>
@@ -38,11 +36,12 @@
       </div>
 
       <div class="main-info">
-        <p class="product-name">КОЛБАСКА САЛЯМИ</p>
-        <p class="product-description">Колбаска салями — это сбалансированный вкус свинины и говядины, подчеркнутый ароматами черного перца и мускатного ореха. Его секрет в свежем мясе от отечественных производителей, прошедшем тщательную обработку по ведущим технологическим стандартам. </p>
+        <p class="product-name">СЕРВЕЛАТ "РАЙСКИЙ"</p>
+        <p class="product-description legend">Считается, что "Создатель" потратил семь дней творения на создание мира: шеть дней творил мир, а на седьмой он сотворил колбасу, чтобы накормить ей всех людей. Но ему так понравилось его творение, что он решил оставить колбасу у себя, доступной только для избранных. С того самого дня человечество безуспешно пыталось раздобыть рецепт настоящей колбаски. Лишь в 2017 г. нашим инженерам, под воздействием тяжелых наркотических средств, удалось подсмотреть рецепт и создать для Вас 100% аналог "райского" сервелата.</p>
+        <p class="product-description">Сервелат "райский" - колбаска от самого "Создателя", предназначенная для избранных. Не ждите смерти: попробуте его ещё при жизни.</p>
         
         <div class="buy-button">
-          <a href="#buy">ДА, БЕРУ!</a>
+          <a class="smooth-scroll" href="#buy">ДА, БЕРУ!</a>
         </div>
       </div>
     </div>
@@ -100,7 +99,7 @@
         <p class="old-price">$50</p>
         <p class="new-price">€49</p>
         <div class="buy-button">
-          <a href="#order">КУПИТЬ!</a>
+          <a class="smooth-scroll" href="#order">КУПИТЬ!</a>
         </div>
       </div>
 
@@ -110,7 +109,7 @@
         <p class="old-price">$200</p>
         <p class="new-price">€199<span class="mini">.99</span></p>
         <div class="buy-button">
-          <a href="#order">ДА, БЕРУ!</a>
+          <a class="smooth-scroll" href="#order">ДА, БЕРУ!</a>
         </div>
       </div>
 
@@ -120,7 +119,7 @@
         <p class="old-price">€1 000 000</p>
         <p class="new-price">€300</p>
         <div class="buy-button">
-          <a href="#order">О, ДА!</a>
+          <a class="smooth-scroll" href="#order">О, ДА!</a>
         </div>
       </div>
     </div>
@@ -134,22 +133,22 @@
         <div class="label-wrapper">
           <div class="label-block">
             <label class="form-label">ФИО</label>
-            <input class="text-area" type="text" name="order[name]" placeholder="Лаврентий Виссарионович Ленин">
+            <input class="text-area" type="text" name="order[name]" placeholder="Лаврентий Виссарионович Ленин" required>
           </div>
           <div class="label-block">
             <label class="form-label">телефон</label>
-            <input class="text-area" type="tel" name="order[address]" placeholder="+79001234567">
+            <input class="text-area" type="tel" name="order[address]" placeholder="+79001234567" required>
           </div>
         </div>
         
         <div class="label-wrapper">
           <div class="label-block">
             <label class="form-label">e-mail</label>
-            <input class="text-area" type="email" name="order[email]" placeholder="kremlin@mail.ru">
+            <input class="text-area" type="email" name="order[email]" placeholder="kremlin@mail.ru" required>
           </div>
           <div class="label-block">
             <label class="form-label">адрес</label>
-            <input class="text-area" type="text" name="order[address]" placeholder="г. Москва, Красная площадь, д.1">
+            <input class="text-area" type="text" name="order[address]" placeholder="г. Москва, Красная площадь, д.1" required>
           </div>
         </div>
 
@@ -244,6 +243,5 @@
   <script type="text/javascript" charset="utf-8" src="js/fotorama.js"></script>
   <script type="text/javascript" charset="utf-8" src="js/header.js"></script>
   <script type="text/javascript" charset="utf-8" src="js/parallax.js"></script>
-  
 </body>
 </html>

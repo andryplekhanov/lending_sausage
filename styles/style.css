@@ -9,14 +9,17 @@ body {
   max-width: 1920px;
   height: 100%;
   font-family: 'Comfortaa', cursive;
+  margin: 0 auto;
 }
 
 .ears-header {
   position: fixed;
   z-index: 1;
   min-height: 100px;
+  max-width: 1920px;
   width: 100%;
   background-color: rgb(20, 76, 113);
+  margin: 0 auto;
 }
 
 .menu {
@@ -143,6 +146,10 @@ body {
   padding: 30px;
   font-weight: bold;
   text-shadow: 0 0 5px black;
+}
+
+.legend {
+  font-size: 14px;
 }
 
 .feedbacks {
@@ -508,6 +515,7 @@ body {
   margin-left: 10px;
   margin-right: 30px;
   border-radius: 7px;
+  border-color: gold;
   padding-left: 7px;
   padding-right: 7px;
   outline: none;
@@ -548,16 +556,19 @@ body {
 }
 
 .submit-button {
-  background: lightgreen;
   width: 200px;
   height: 50px;
   margin: auto;
   border-radius: 5px;
   font-size: 18px;
+  background-color: rgb(55, 137, 191);
+  border-color: gold;
+  color: white;
+  text-shadow: 0 0 5px black;
 }
 
 .submit-button:hover {
-  box-shadow: 0px 0px 15px 0 gold;
+  box-shadow: 0px 0px 25px 0 gold;
   transition: all ease .3s;
   cursor: pointer;
   width: 250px;
