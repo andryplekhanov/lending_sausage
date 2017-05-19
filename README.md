@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application was created by [Andrey Plekhanov](https://github.com/andryplekhanov) in may, 2017, with the help of "Ruby on Rails".
+It was a joky project.
 
-Things you may want to cover:
+IMPORTANT:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ruby version: 2.4.0
+* Rails version: 5.0.3
+* Language: rus
+* How to run: [click here](https://landingsausage.herokuapp.com/)
