@@ -1,0 +1,21 @@
+table {
+  width: 100%;
+  border-spacing: 0;
+  text-align: center;
+}
+
+th {
+  font-size: 110%;
+  color: gray;
+  padding: 10px 5px;
+}
+
+td {
+  border-top: 1px solid #e0e0e0;
+  padding: 10px 5px;
+}
+
+h1 {
+  padding-bottom: 50px;
+  text-align: center;
+}

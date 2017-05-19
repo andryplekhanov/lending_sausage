@@ -1,0 +1,33 @@
+<div class="container buffer-top-large">
+  <h1 class="title-medium">Все заказы</h1>
+
+  <table class="text-center buffer-top">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>ФИО</th>
+      <th>Телефон</th>
+      <th>Email</th>
+      <th>Адрес</th>
+      <th>Заказ: 2 кусочека</th>
+      <th>Заказ: 1 палка</th>
+      <th>Заказ: полный фарш</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @orders.each do |order| %>
+        <tr>
+          <td><%= order.id %></td>
+          <td><%= order.name %></td>
+          <td><%= order.email %></td>
+          <td><%= order.phone %></td>
+          <td><%= order.address %></td>
+          <td><%= '✓ ' if order.two_slices? %></td>
+          <td><%= '✓ ' if order.one_bar? %></td>
+          <td><%= '✓ ' if order.full_farsh? %></td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
